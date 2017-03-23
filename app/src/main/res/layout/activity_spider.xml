@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shli.here.activity.SpiderActivity">
+
+    <com.shli.here.customview.spider.SpiderView
+        android:layout_alignParentTop="true"
+        android:id="@+id/spider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="50dp"
+        />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="雷达角数量"
+        android:onClick="setData"
+        />
+
+    <Button
+        android:layout_above="@id/button1"
+        android:onClick="setSpiderCount"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="层数"
+        />
+
+    <Button
+        android:layout_above="@id/button2"
+        android:id="@+id/button3"
+        android:onClick="setSpiderR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="半径"/>
+
+
+    <Button
+        android:layout_above="@id/button3"
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="线长"
+        android:onClick="setMaxNumber"
+        />
+</RelativeLayout>
