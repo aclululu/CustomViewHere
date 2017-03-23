@@ -14,9 +14,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * 打开蛛网自定义视图界面
+     * @param view
+     */
     public void spiderView(View view){
         Intent intent = new Intent(this,SpiderActivity.class);
         startActivity(intent);
+
     }
 
 
