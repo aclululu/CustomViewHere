@@ -16,5 +16,10 @@
             android:layout_height="50dp"
             android:text="蛛网"
             android:onClick="spiderView"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="图片滑动浏览"
+            android:onClick="slipView"/>
     </LinearLayout>
 </ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.shli.here.customview.slip.SlipView
+        android:id="@+id/slip"
+        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        >
+    </com.shli.here.customview.slip.SlipView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_margin="60dp"
+        android:layout_height="60dp"
+        android:text="下一张"
+        android:background="#ffffff"
+        />
+
+
+</LinearLayout>

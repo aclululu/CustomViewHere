@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
+     * spiderView
      * 打开蛛网自定义视图界面
      * @param view
      */
@@ -22,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,SpiderActivity.class);
         startActivity(intent);
 
+    }
+
+    /**
+     * slipView
+     * 打开图片滑动浏览视图界面
+     * @param view
+     */
+    public void slipView(View view){
+        Intent intent = new Intent(this,SlipActivity.class);
+        startActivity(intent);
     }
 
 
