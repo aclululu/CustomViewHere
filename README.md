@@ -10,4 +10,5 @@
 
 [文件路径](https://github.com/aclululu/CustomViewHere/tree/master/app/src/main/java/com/shli/here/customview/slip "文件路径")
 
-![slipView动画](http://pic.027cgb.cn/20170412/201743581548361697.gif)
+
+![](http://pic.027cgb.cn/20170412/201743581548361697.gif)
