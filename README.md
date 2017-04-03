@@ -6,7 +6,7 @@
 
 ![](http://i2.buimg.com/1949/21ca0407489f9ace.gif)
 
-###[2.自定义View之图片随手势方向动态加载](http://www.jianshu.com/p/8037a119023e "查看信息详情")
+### [2.自定义View之图片随手势方向动态加载](http://www.jianshu.com/p/8037a119023e "查看信息详情")
 [文件路径](https://github.com/aclululu/CustomViewHere/tree/master/app/src/main/java/com/shli/here/customview/slip "文件路径")
 
 
